@@ -12,6 +12,7 @@
 .hangmanPicContainer {
   flex-grow: 1;
   height: auto;
+  width: min-content;
 }
 .hangmanPic {
   max-width: 100%;
@@ -23,6 +24,5 @@
   flex-grow: 1;
   height: auto;
   background-color: rgb(75, 221, 221);
-  width: inherit;
   display: flex;
 }
