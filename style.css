@@ -10,9 +10,7 @@
   height: 500px;
 }
 .hangmanPicContainer {
-  flex-grow: 1;
-  height: auto;
-  width: min-content;
+  width: 100%;
 }
 .hangmanPic {
   max-width: 100%;
@@ -21,8 +19,9 @@
   min-width: 100%;
 }
 .game {
-  flex-grow: 1;
-  height: auto;
+  width: 100%;
   background-color: rgb(75, 221, 221);
-  display: flex;
+}
+.buttons {
+  margin: 0;
 }
